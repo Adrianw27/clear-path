@@ -1,0 +1,19 @@
+# Web Framework
+fastapi
+aiofiles
+uvicorn
+python-multipart
+
+# Computer Vision & Math
+opencv-python
+numpy
+ultralytics
+
+# Database
+sqlalchemy
+
+# LLM & Utilities
+google-generativeai
+python-dotenv
+httpx
+gTTS
