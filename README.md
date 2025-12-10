@@ -1,4 +1,4 @@
-# Clear Net AI Vision Assistant
+# Clear Path AI Vision Assistant
 A multimodal AI assistant powered by computer vision that "sees" through your webcam, detects objects using YOLOv8, reasons about their location using Google Gemini, and speaks guidance back to you. The app is designed to be a hands-free assistive tool to provide visually impaired users with human-like directions to find specific objects.
 
 **Current Features:**
