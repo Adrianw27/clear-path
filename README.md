@@ -4,8 +4,8 @@ An experimental vision and multimodal AI project designed to be a hands-free ass
 ## Program Flow
 **Whisper** speech to text processing (currently working on) -> **OpenCV** image loading -> **YOLOv8** object detection -> **Gemini 2.5 Flash** LLM guidance generation -> **gTTS** speech generation
 - **Inputs:**
-    - Microphone audio - will be processed by **Whisper** to request object location guidance hands-free
-    - Webcam frame capture - image processing
+    - Microphone audio - to request object location guidance hands-free
+    - Webcam frame capture
 - **Outputs:**
     - *OpenCV* processed image visualization with boundary boxes
     - *gTTS* audio for object location guidance
