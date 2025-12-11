@@ -23,10 +23,9 @@ An experimental vision and multimodal AI project designed to be a hands-free ass
 
 **Future Implementations:**
 1. 🗣️ *Voice & Audio (Multimodal)*
-- Text-to-Speech (TTS): The backend will generate an MP3 file of the guidance using gTTS and streams it to the browser, so the assistant speaks the results out loud.
-- Push-to-Talk Voice Commands: The frontend will have a "Hold to Speak" button that records your voice, sends it to the backend, and sets the target object (e.g., "Find my keys") via audio transcription.
+- Voice Commands (STT): The frontend will have a "Hold to Speak" button that records your voice, sends it to the backend, and sets the target object (e.g., "Find my keys") via audio transcription.
 2. ⚓ *Set Anchors*
-- Object Location: The user will be able to set anchors on objects in their physical environment. The AI model will will incorporate the anchors in the spatial reasoning to deliver a relative position to objects the user can easily locate.
+- Object Location: The user will be able to set anchors on objects in their physical environment. The AI model will incorporate the anchors in the spatial reasoning to deliver a relative position to objects the user can easily locate.
 - Database Integration: Environment anchors will be stored in a database and saved between sessions.
 
 ## Configuration/Setup
