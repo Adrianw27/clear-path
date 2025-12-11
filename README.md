@@ -1,5 +1,11 @@
 # Clear Path AI Vision Assistant
-A multimodal AI assistant powered by computer vision that "sees" through your webcam, detects objects using YOLOv8, reasons about their location using Google Gemini, and speaks guidance back to you. The app is designed to be a hands-free assistive tool to provide visually impaired users with human-like directions to find specific objects.
+An experimental vision and multimodal AI project designed to be a hands-free assistive tool providing visually impaired users with human-like directions for finding objects in their physical environment.
+
+## Program Flow
+Microphone audio capture -> **Whisper** speech to text processing (future implementation) -> webcam frame capture -> **OpenCV** image loading -> **YOLOv8** object detection ->  -> **Gemini 2.5 Flash** LLM guidance generation -> **gTTS** speech generation \n
+- **Outputs:**
+    - *OpenCV* processed image visualization with boundary boxes
+    - *gTTS* audio for object location guidance
 
 **Current Features:**
 1. 👁️ *Computer Vision & Visualization*
