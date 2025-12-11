@@ -7,7 +7,7 @@ Microphone audio capture -> **Whisper** speech to text processing (future implem
     - *OpenCV* processed image visualization with boundary boxes
     - *gTTS* audio for object location guidance
 
-**Current Features:**
+## Features
 1. 👁️ *Computer Vision & Visualization*
 - YOLOv8 Detection: The backend uses the YOLOv8 Nano model to detect 80+ common objects (cups, bottles, persons, cell phones, etc.) in real-time.
 - Server-Side Drawing: Instead of relying on the browser, the backend uses OpenCV to draw green bounding boxes and labels directly onto the image before sending it back. This ensures what you see is exactly what the AI saw.
