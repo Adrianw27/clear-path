@@ -1,14 +1,8 @@
 # Clear Path AI Vision Assistant
 An experimental vision and multimodal AI project designed to be a hands-free assistive tool providing visually impaired users with human-like directions for finding objects in their physical environment.
 
-## Program Flow
+## Program Flow [Read More](https://github.com/Adrianw27/clear-path/blob/main/process.md)
 **Whisper** speech to text processing (currently working on) -> **OpenCV** image loading -> **YOLOv8** object detection -> **Gemini 2.5 Flash** LLM guidance generation -> **gTTS** speech generation
-- **Inputs:**
-    - Microphone audio - to request object location guidance hands-free
-    - Webcam frame capture
-- **Outputs:**
-    - *OpenCV* processed image visualization with boundary boxes
-    - *gTTS* audio for object location guidance
 
 ## Features
 1. 👁️ *Computer Vision & Visualization*
